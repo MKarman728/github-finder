@@ -5,11 +5,9 @@ function Home() {
   const test = `${process.env.REACT_APP_GITHUB_TOKEN}`
   console.log(test);
   return (
-    <div>
+    <>
         <UserResults />
-
-        
-    </div>
+    </>
   )
 }
 
